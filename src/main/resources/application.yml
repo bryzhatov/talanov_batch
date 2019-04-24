@@ -1,0 +1,9 @@
+spring:
+  batch:
+    initialize-schema: always
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/talanov_batch
+    username: postgres
+    password: dima
+    driver-class-name: org.postgresql.Driver
